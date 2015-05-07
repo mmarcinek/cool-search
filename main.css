@@ -5,8 +5,53 @@ body {
   font-family: Muli, Helvetica, sans-serif;
   background-color: #456;
   color: #bcd;
+  font-size: 62.5%;
+}
+
+.cool-search {
+  height: calc(100vh - 50px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #345;
 }
 
 h1 {
   font-family: Pacifico, Helvetica, sans-serif;
+  font-size: 6em;
+  text-align: center;
+  margin: 0;
+}
+
+form {
+  width: 70%;
+  /*background-color: orange;*/
+  margin: auto;
+}
+
+input {
+  background-color: #bcd;
+  border: 1px solid #def;
+  color: #456;
+  display: block;
+  font-size: 2em;
+  width: 100%;
+}
+
+button {
+  background: #ada;
+  border: 1px solid #afa;
+  color: #343;
+  display: block;
+  font-size: 3em;
+  width: 100%;
+  margin-top: 10px;
 }
